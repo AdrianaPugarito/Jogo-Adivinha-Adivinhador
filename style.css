@@ -1,0 +1,70 @@
+body {
+  min-height: 600px;
+  background-image: url("https://despacitoyconbuenaletrasite.files.wordpress.com/2019/03/70387661-fondo-del-signo-de-interrogacic3b3n-del-vintage.jpg?w=775");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #045174;
+  margin: 0 0 5px;
+  font-size: 70px;
+  text-shadow: 7px 4px 5px #2e8bc0;
+  font-family: Andale Mono, monospace;
+}
+
+.page-subtitle {
+  color: #e87a00;
+  margin-top: 16px;
+  font-size: 60px;
+  font-family: Consolas, monaco, monospace.;
+}
+
+.page-logo {
+  width: 400px;
+}
+
+.alura-logo {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f3eac0;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 30px;
+  background: #d89c60;
+  width: 100px;
+  font-size: 20px;
+  font-family: Verdana, Helvetica;
+}
+
+.resultado {
+  color: #0000ff;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 50px;
+}
